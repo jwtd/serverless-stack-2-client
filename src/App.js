@@ -66,7 +66,7 @@ class App extends Component {
                     <LinkContainer to="/settings">
                       <NavItem>Settings</NavItem>
                     </LinkContainer>
-                    <NavItem onClick={this.handleLogout}>Logout</NavItem>
+                    <NavItem onClick={this.handleLogout}>Logout Test</NavItem>
                   </Fragment>
                 : <Fragment>
                     <LinkContainer to="/signup">
@@ -84,6 +84,7 @@ class App extends Component {
       </div>
     );
   }
+  
   
 
 
